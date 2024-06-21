@@ -8,11 +8,11 @@ class Employee
 {
 protected:
 	string name;
-	string positiong;
+	string position;
 	float salary;
 public:
 	Employee();
-	Employee(string name, string positiong, float salary);
+	Employee(string name, string position, float salary);
 	virtual ~Employee();
 
 	void setName(string name);
