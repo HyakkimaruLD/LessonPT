@@ -8,7 +8,7 @@ class Employee
 {
 protected:
 	string name;
-	string positiong;
+	string position;
 	float salary;
 public:
 	Employee();
