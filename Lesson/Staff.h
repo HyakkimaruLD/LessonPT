@@ -15,7 +15,8 @@ public:
 	void setBonus(double bonus);
 	double getBonus() const;
 
-	double calcSalary();
+	virtual void showInfo()const override;
+	virtual float calcSalary()const override;
 
 
 
