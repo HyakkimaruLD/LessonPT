@@ -28,3 +28,4 @@ float Staff::calcSalary() const
 {
     return salary + bonus;
 }
+
