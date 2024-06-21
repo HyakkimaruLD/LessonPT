@@ -25,6 +25,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Outstaff.cpp">
+    <ClCompile Include="Department.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,6 +37,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Outstaff.h">
+    <ClInclude Include="Department.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
