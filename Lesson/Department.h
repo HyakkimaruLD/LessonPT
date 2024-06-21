@@ -2,11 +2,14 @@
 #include "Employee.h"
 #include <vector>
 #include <algorithm>
+#include <string>
+using namespace std;
 
 class Department
 {
 protected:
 	vector <Employee*> employees;
+	string name;
 
 public:
 	Department();
