@@ -15,7 +15,16 @@ double Staff::getBonus() const
     return bonus;
 }
 
-double Staff::calcSalary()
+void Staff::showInfo() const
+{
+    cout << "Staff Info" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Position: " << position << endl;
+    cout << "Salary: " << salary << endl;
+    cout << "Bonus: " << bonus << endl << endl;
+}
+
+float Staff::calcSalary() const
 {
     return salary + bonus;
 }
