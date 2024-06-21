@@ -25,7 +25,7 @@ void Department::addEmployee(Employee* employee)
     employees.push_back(employee);
 }
 
-void Department::shoAllEmployee()
+void Department::shoAllEmployee()const
 {
     for (auto employee : employees) 
     {
@@ -48,7 +48,7 @@ void Department::deleteEmployee(string name)
     cout << "Employee " << name << " not found" << endl;
 }
 
-void Department::findEmployee(string name)
+void Department::findEmployee(string name)const
 {
     for (auto employee : employees) 
     {

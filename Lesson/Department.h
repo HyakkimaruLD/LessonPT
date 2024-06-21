@@ -20,8 +20,8 @@ public:
 	string getNameDepartment()const;
 
 	void addEmployee(Employee* employee);
-	void shoAllEmployee();
+	void shoAllEmployee()const;
 	void deleteEmployee(string name);
-	void findEmployee(string name);
+	void findEmployee(string name)const;
 };
 
